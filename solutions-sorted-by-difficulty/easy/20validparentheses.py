@@ -20,6 +20,4 @@ class Solution(object):
         result = solution.isValid(s)
         print(f"Is the string '{s}' valid? {result}")
 
-
-# Run the program
 Solution.run()
