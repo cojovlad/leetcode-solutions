@@ -15,7 +15,7 @@ class Solution(object):
 
     @staticmethod
     def run():
-        s = "( { [   )"  # Input string
+        s = "( { [ ] } )"
         solution = Solution()
         result = solution.isValid(s)
         print(f"Is the string '{s}' valid? {result}")
