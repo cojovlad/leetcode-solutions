@@ -8,7 +8,7 @@ class Solution(object):
 
     @staticmethod
     def run():
-        digits = [9]  # Example input: integer 123
+        digits = [9]
         sol = Solution()
         result = sol.plusOne(digits)
         print("Resulting array:", result)
