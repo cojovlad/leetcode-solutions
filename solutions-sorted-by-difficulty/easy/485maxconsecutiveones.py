@@ -13,6 +13,5 @@ class Solution(object):
             max = count
         return max
 
-
 solution = Solution()
 print(solution.findMaxConsecutiveOnes([1, 1, 0, 1, 1, 1]))
